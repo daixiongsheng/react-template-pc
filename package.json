@@ -1,6 +1,6 @@
 {
-  "name": "react-template",
-  "version": "1.0.0",
+  "name": "dxs-react-template-pc",
+  "version": "0.0.1",
   "description": "## Getting Started",
   "main": ".eslintrc.js",
   "directories": {

@@ -6,6 +6,11 @@
   "directories": {
     "test": "tests"
   },
+  "exclude": [
+    ".vscode",
+    ".vite",
+    "build"
+  ],
   "scripts": {
     "dev": "cross-envNODE_ENV=development webpack serve --config ./config/webpack.config.dev.ts",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js",

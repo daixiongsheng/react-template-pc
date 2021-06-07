@@ -86,7 +86,7 @@ const BaseLayout: React.FC = () => {
             {cleanRoute.map((route, index) => (
               <PrivateRoute {...route} key={index} />
             ))}
-            <Route path="/" exact component={HomePage} />
+            <PrivateRoute path="/" auth exact component={HomePage} />
           </Switch>
         </Content>
         <CustomFooter />

@@ -1,12 +1,14 @@
-import React from 'react';
-import {Layout} from 'antd';
+import React from 'react'
+import { Layout } from 'antd'
 
-const {Footer} = Layout;
+const { Footer } = Layout
 
 const CustomFooter: React.FC = () => {
-    return (
-        <Footer style={{textAlign: 'center'}}>©{(new Date()).getFullYear()} Created by daixiongsheng</Footer>
-    );
-};
+  return (
+    <Footer style={{ textAlign: 'center' }}>
+      ©{new Date().getFullYear()} Created by daixiongsheng
+    </Footer>
+  )
+}
 
-export default CustomFooter;
+export default CustomFooter

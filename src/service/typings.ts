@@ -1,12 +1,11 @@
-import {UserInfo} from '@/hooks';
-
+import { UserInfo } from '@/hooks'
 
 export interface LoginParams {
-    username: string;
-    password: string;
+  username: string
+  password: string
 }
 export interface LoginResult {
-    success: boolean;
-    userInfo: UserInfo;
-    token: string;
+  success: boolean
+  userInfo: UserInfo
+  token: string
 }

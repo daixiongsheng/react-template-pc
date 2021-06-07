@@ -1,9 +1,8 @@
-
-import paths from './paths';
+import paths from './paths'
 
 export default {
-    additionalModulePaths: null,
-    webpackAliases: {
-        '@': paths.appSrc,
-    },
-};
+  additionalModulePaths: null,
+  webpackAliases: {
+    '@': paths.appSrc,
+  },
+}
